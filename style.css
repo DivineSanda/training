@@ -1,25 +1,22 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+.navigation {
+    list-style: none;
+    justify-content: center;
     display: flex;
-    flex-direction: column;
-    min-height: 90vh;
+    gap: 20px;
+    border-bottom: 3px solid #ccc;
 }
-header{
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+footer {
+    margin-top:auto;
     text-align: center;
 }
-main{
-    flex-grow: 1;
-    padding: 20px;
+.navigation li a:hover {
+    color: #e817dd;
+    
+    
 }
-footer{
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+.navigation li a {
+    text-decoration: none;
+    color: rgb(32, 59, 21t2);
+    font-weight: bold;
+
 }
