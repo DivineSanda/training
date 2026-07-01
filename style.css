@@ -2,15 +2,15 @@
     list-style: none;
     justify-content: center;
     display: flex;
-    gap: 20px;
-    border-bottom: 3px solid #ccc;
+    gap: 5px;
+    border-bottom: 3px solid #d51951;
 }
 footer {
     margin-top:auto;
     text-align: center;
 }
 .navigation li a:hover {
-    color: #e817dd;
+    color: #12c129;
     
     
 }
@@ -20,3 +20,41 @@ footer {
     font-weight: bold;
 
 }
+.fullscreen-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color:rgb(24, 213, 30);
+    padding:25px;
+
+}
+.content h1{
+    font-size:50px;
+    font-weight: bold;
+    margin:0 0 15px 0;
+    text-shadow: 0 4px 10px brown;
+}
+.content p{
+    font-size:20px;
+    text-shadow: #d51951;
+    max-width:700px;
+}
+.btn{
+    transition:all 0.3s ease;
+    display:inline-block;
+    padding:12px 30px;
+    text-decoration: none;
+    font-size:30px;
+
+
+
+}
+
